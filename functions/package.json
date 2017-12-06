@@ -1,0 +1,19 @@
+{
+  "name": "functions",
+  "description": "Google assistant tutorial app that uses a carousel for dynamic user input (with dynamic data)",
+  "version":"0.0.1",
+  "author":"Anthony Broad-Crawford",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase experimental:functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "firebase-admin": "~5.4.2",
+    "firebase-functions": "^0.7.1"
+  },
+  "private": true
+}
